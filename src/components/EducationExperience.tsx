@@ -76,15 +76,14 @@ function TimelineItem({ title, subtitle, date, description, highlights, technolo
       {/* Content with hover effects */}
       <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
         <div className="flex items-center gap-4 mb-3">
-          <h3 className="text-xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
-            {title}
-          </h3>
-          <span className="text-sm text-gray-500 font-medium px-3 py-1 bg-gray-100 rounded-full">
+          <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
+          <span className="text-xs text-gray-500 font-medium px-3 py-1 bg-gray-100 rounded-full">
             {date}
           </span>
         </div>
-        <p className="text-gray-600 font-medium mb-4 text-lg">{subtitle}</p>
-        {description && <p className="text-gray-600 text-sm mb-4">{description}</p>}
+        <p className="text-sm font-medium text-blue-600 mb-1">{subtitle}</p>
+        <p className="text-xs text-gray-500 mb-2">{date}</p>
+        {description && <p className="text-sm text-gray-600 leading-relaxed">{description}</p>}
         
         {/* Projects with enhanced styling */}
         {projects && projects.length > 0 && (
@@ -203,21 +202,10 @@ export default function EducationExperience() {
   };
 
   return (
-    <motion.div 
-      className="space-y-12"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
+    <div className="space-y-10">
       <section>
-        <motion.h2 
-          className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
-          Experience
-        </motion.h2>
-        <div className="space-y-6">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Work Experience</h2>
+        <div className="relative border-l border-gray-200 pl-6 space-y-8">
           {workExperience.map((item, index) => (
             <TimelineItem key={index} {...item} index={index} />
           ))}
@@ -225,19 +213,13 @@ export default function EducationExperience() {
       </section>
 
       <section>
-        <motion.h2 
-          className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
-          Education
-        </motion.h2>
-        <div className="space-y-6">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Education</h2>
+        <div className="relative border-l border-gray-200 pl-6 space-y-8">
           {education.map((item, index) => (
             <TimelineItem key={index} {...item} index={index} />
           ))}
         </div>
       </section>
-    </motion.div>
+    </div>
   )
 } 

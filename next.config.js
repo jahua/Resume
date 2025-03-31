@@ -18,6 +18,7 @@ const nextConfig = {
       });
       return config;
     },
+    // Change output to 'export' for static site generation
     output: 'standalone'
   };
   

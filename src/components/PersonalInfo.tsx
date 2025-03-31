@@ -47,7 +47,7 @@ export default function PersonalInfo() {
 
   return (
     <motion.div 
-      className="bg-white p-8 rounded-3xl shadow-xl text-center relative overflow-hidden border border-gray-100"
+      className="bg-white p-6 rounded-3xl shadow-xl text-center relative overflow-hidden border border-gray-100"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -66,18 +66,18 @@ export default function PersonalInfo() {
           alt={`${name} - Profile Picture`}
           fill
           sizes="128px"
-          className="rounded-full object-cover"
+          className="rounded-full object-cover object-top"
           onError={handleImageError}
           priority
         />
       </motion.div>
 
       {/* Name and Title */}
-      <h1 className="text-3xl font-bold text-gray-900 mb-1">{name}</h1>
-      <p className="text-lg text-blue-600 font-medium mb-4">{title}</p>
+      <h1 className="text-2xl font-bold text-gray-900 mb-1">{name}</h1>
+      <p className="text-base text-blue-600 font-medium mb-3">{title}</p>
       
       {/* Email and Phone (Displayed as Text) - Moved Before Address */}
-      <div className="space-y-2 mb-4 text-gray-600 text-sm">
+      <div className="space-y-1 mb-3 text-gray-600 text-sm">
         {/* Email Row */}
         <div className="flex items-center justify-center space-x-2 group">
           <FiMail className="text-gray-400" />
@@ -104,13 +104,13 @@ export default function PersonalInfo() {
       </div>
 
       {/* Location */}
-      <div className="flex items-center justify-center text-gray-600 mb-6 text-sm">
+      <div className="flex items-center justify-center text-gray-600 mb-4 text-sm">
         <FaMapMarkerAlt className="h-4 w-4 mr-1.5 text-gray-400" />
         {address}
       </div>
 
       {/* Social & Website Icons */}
-      <div className="flex justify-center space-x-5 mb-8 text-gray-500">
+      <div className="flex justify-center space-x-5 mb-6 text-gray-500">
         {/* GitHub */}
         {github && (
           <a 
@@ -150,7 +150,7 @@ export default function PersonalInfo() {
       </div>
 
       {/* Bio / Profile Summary */}
-      <p className="text-gray-700 text-base leading-relaxed max-w-xl mx-auto">
+      <p className="text-gray-700 text-sm leading-relaxed max-w-xl mx-auto">
         {profileSummary}
       </p>
     </motion.div>
