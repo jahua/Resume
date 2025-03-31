@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "AI-Powered Chatbot System",
+      "description": "Developed an advanced chatbot system using large language models and natural language processing. Implemented context-aware responses and integrated with multiple data sources for enhanced user interaction.",
+      "technologies": ["Python", "PyTorch", "Transformers", "FastAPI", "Docker"],
+      "image": "/images/projects/project1.jpg",
+      "github": "https://github.com/huaduojie/chatbot-system",
+      "liveUrl": "https://ecommerce-demo.alexjohnson.dev",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Data Analysis Pipeline",
+      "description": "Built an automated data analysis pipeline for processing and analyzing large-scale datasets. Implemented data cleaning, feature engineering, and visualization components with a focus on scalability.",
+      "technologies": ["Python", "Pandas", "NumPy", "Scikit-learn", "MLflow"],
+      "image": "/images/projects/project2.jpg",
+      "github": "https://github.com/huaduojie/data-pipeline",
+      "liveUrl": "https://taskapp.alexjohnson.dev",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning Research",
+      "description": "Conducted research on advanced machine learning techniques, focusing on natural language processing and computer vision applications. Published findings and developed proof-of-concept implementations.",
+      "technologies": ["Python", "TensorFlow", "BERT", "Computer Vision", "NLP"],
+      "image": "/images/projects/project3.jpg",
+      "github": "https://github.com/huaduojie/ml-research",
+      "liveUrl": "https://weather.alexjohnson.dev",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Statistical Analysis Tools",
+      "description": "Developed a suite of statistical analysis tools for data scientists, including implementations of advanced statistical methods and interactive visualization components.",
+      "technologies": ["R", "Python", "Statistical Analysis", "Data Visualization"],
+      "image": "/images/projects/project4.jpg",
+      "github": "https://github.com/huaduojie/stats-tools",
+      "liveUrl": "https://portfolio-template.alexjohnson.dev",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Recipe Finder",
+      "description": "A recipe search application that allows users to find recipes based on ingredients they have. Includes filtering by dietary restrictions and meal type.",
+      "technologies": ["React", "Context API", "Spoonacular API", "Styled Components"],
+      "image": "/images/projects/project5.jpg",
+      "github": "https://github.com/alexjdev/recipe-finder",
+      "liveUrl": "https://recipes.alexjohnson.dev",
+      "featured": false
+    }
+  ]

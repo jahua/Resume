@@ -1,0 +1,160 @@
+{
+  "personalInfo": {
+    "name": "Jiahua Duojie",
+    "address": "Spannortstrasse 10, 6003 Luzern",
+    "phone": "+41 76 80 111 55",
+    "email": "jiahua.duojie@hotmail.com",
+    "title": "Data Engineer | Full-Stack Developer | AI Enthusiast",
+    "linkedIn": "https://www.linkedin.com/in/duojie-jiahua",
+    "website": "https://me.tripwise.ch",
+    "github": "https://github.com/jahua"
+  },
+  "profileSummary": "Experienced Data Scientist & Full-Stack Web Developer with a strong foundation in .NET and Node.js frameworks. Adept at developing cloud-based data pipelines, data warehouses, and deploying machine learning models into production. Skilled with modern ML frameworks including TensorFlow, PyTorch, and scikit-learn. Specializes in integrating Large Language Models (LLMs) and Natural Language Processing (NLP) techniques to create cognitive solutions that address complex real-world challenges.",
+  "skills": {
+    "dataEngineeringCloud": [
+      { "name": "Azure Data Factory", "level": 8 },
+      { "name": "Databricks", "level": 7 },
+      { "name": "Delta Lake", "level": 7 },
+      { "name": "Apache Spark", "level": 8 },
+      { "name": "Airflow", "level": 8 },
+      { "name": "Apache Kafka", "level": 6 },
+      { "name": "AWS", "level": 8 },
+      { "name": "Azure Fabric", "level": 9 },
+      { "name": "Azure UI Search API", "level": 7 },
+      { "name": "Google Cloud", "level": 8 },
+      { "name": "BigQuery", "level": 8 }
+    ],
+    "languagesFrameworks": [
+      {
+        "languages": [
+          { "name": "Python", "level": 9 },
+          { "name": "TypeScript", "level": 8 },
+          { "name": "C#", "level": 8 },
+          { "name": "PHP", "level": 7 }
+        ],
+        "frameworks": [
+          { "name": ".NET Framework", "level": 7 },
+          { "name": "Vue.js", "level": 8 },
+          { "name": "React", "level": 8 }
+        ],
+        "devOps": [
+          { "name": "Git", "level": 9 },
+          { "name": "Docker", "level": 8 },
+          { "name": "MLOps", "level": 7 },
+          { "name": "CI/CD", "level": 8 }
+        ]
+      }
+    ],
+    "MachineLearning": [
+      {
+        "frameworks": [
+          { "name": "PyTorch", "level": 8 },
+          { "name": "TensorFlow", "level": 7 },
+          { "name": "Scikit-learn", "level": 9 }
+        ],
+        "applications": [
+          { "name": "Computer Vision", "level": 8 },
+          { "name": "NLP", "level": 9 },
+          { "name": "Time Series Analysis", "level": 8 }
+        ],
+        "tools": [
+          { "name": "NumPy", "level": 9 },
+          { "name": "Pandas", "level": 10 },
+          { "name": "Jupyter", "level": 9 }
+        ]
+      }
+    ],
+    "databasesAnalytics": [
+      {
+        "databases": [
+          { "name": "PostgreSQL", "level": 8 },
+          { "name": "MySQL", "level": 8 },
+          { "name": "MongoDB", "level": 7 }
+        ],
+        "visualization": [
+          { "name": "Matplotlib", "level": 9 },
+          { "name": "Seaborn", "level": 8 },
+          { "name": "Plotly", "level": 9 }
+        ],
+        "businessIntelligence": [
+          { "name": "Power BI", "level": 8 },
+          { "name": "Tableau", "level": 8 },
+          { "name": "Looker", "level": 7 }
+        ]
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Data Science – Master's Program",
+      "institution": "Lucerne University of Applied Science and Art, Lucerne",
+      "period": "Feb 2023 – Jun 2025(expected)"
+    },
+    {
+      "degree": "Computer Science – Undergraduate",
+      "institution": "Nankai University, Tianjin",
+      "period": "Sep 2012 – Jan 2017"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "internship & project based learning",
+      "company": "Bydo.swiss, HSLU,On Holding AG",
+      "projects": [
+        {
+          "name": "Data cleaning and Tariff classification model for product of On Holding AG",
+          "technologies": ["Python", "MongoDB", "ML models"],
+          "period": "Aug 2024- Jan 2025"
+        },
+        {
+          "name": "Data warehouse and visualization of Swiss shared mobility",
+          "technologies": ["Python", "Postgress", "AWS lhamda", "Airflow", "redshift", "Tableau"],
+          "period": "Oct-Dec 2024"
+        },
+        {
+          "name": "Master thesis project: Development of a tourism data chatbot to access and interact with complex data",
+          "technologies": ["Langchain", "Airflow", "RAG"],
+          "period": ""
+        }
+      ]
+    },
+    {
+      "position": "Data Engineer",
+      "company": "Qinghai Big Data Co., Ltd — Xining",
+      "period": "March 2020 - January 2023",
+      "technicalStack": ["Azure Data Factory", "Databricks", "Apache Spark", "Python", "PostgreSQL", "C#", ".NET Core", "Blazor", "ReactiveUI", "Docker"],
+      "responsibilities": [
+        "Architected high-performance data pipelines using Azure Data Factory and Databricks for real-time processing",
+        "Engineered ETL workflows that transformed raw data into analytics-ready formats with 40% improved efficiency",
+        "Developed responsive Blazor dashboards with ReactiveUI for business intelligence reporting",
+        "Automated monitoring systems using Python and Azure Functions to ensure data pipeline reliability",
+        "Built ML pipelines integrating IoT sensor data with AI models, reducing system downtime by 35%"
+      ]
+    },
+    {
+      "position": "Project Team Leader",
+      "company": "Qinghai Dari Media & Tech Co., Ltd — Xining",
+      "period": "June 2017 - February 2020",
+      "technicalStack": ["Node.js", "React", "Microsoft .NET", "MySQL", "Odoo"],
+      "responsibilities": [
+        "Led development team in designing enterprise data warehouse architecture and REST API ecosystem",
+        "Spearheaded development of custom e-commerce platform and content management system",
+        "Orchestrated successful integration of Odoo ERP solution with existing business systems",
+        "Implemented agile methodologies that significantly improved project delivery timelines",
+        "Mentored junior developers in modern web development practices and architectural principles"
+      ]
+    },
+    {
+      "position": "Web Developer & Sales Manager",
+      "company": "Qinghai Himalaya Travel Service — Xining",
+      "period": "March 2012 - May 2017",
+      "technicalStack": ["Drupal", "PHP", "HTML", "CSS", "MySQL", "SEO Tools"],
+      "responsibilities": [
+        "Developed a responsive website with custom booking modules",
+        "Optimized SEO strategies, increasing web traffic and conversions",
+        "Automated email marketing and integrated secure payment systems",
+        "Built a reporting system to track sales performance"
+      ]
+    }
+  ]
+}

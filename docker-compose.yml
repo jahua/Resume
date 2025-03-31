@@ -1,0 +1,16 @@
+version: '3.8' # Specifies the Docker Compose file format version
+
+services:
+  web:
+    build:
+      context: . # Use the Dockerfile in the current directory
+      dockerfile: Dockerfile
+    image: about-me-app # Optional: Tag the image built by compose
+    container_name: about_me_container # Optional: Give the container a specific name
+    ports:
+      - "3002:3000" # Map host port 3002 to container port 3000
+    restart: unless-stopped # Optional: Configure container restart policy
+    environment:
+      - NODE_ENV=production
+      # Add any other environment variables your app might need at runtime
+      # Example: - DATABASE_URL=your_db_connection_string 
